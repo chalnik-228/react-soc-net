@@ -1,0 +1,164 @@
+.LogRegBody {
+    /* background-color: white; */
+    width: auto;
+}
+
+.FormForReglog {
+    display: grid;
+    grid-template-columns: 450px 480px;
+    grid-template-rows: 530px 1fr;
+    justify-content: center;
+    column-gap: 100px;
+}
+
+.TextandBtn {
+    background-color: transparent;
+    padding: 10px;
+    justify-self: start;
+    align-self: center;
+}
+
+.Forms {
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 6px;
+    background-color: white;
+}
+
+.LoginR{
+    padding: 15px 35px;
+}
+
+.TextBlue {
+    color: #27AAE1;
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+.textTop {
+    margin-bottom: 15px;
+}
+.textTop span {
+    color: #95959c;
+    font-size: 14px;
+    
+}
+
+.forma input {
+    background: transparent;
+    border-radius: 13px;
+    border: 1px solid #d9d9e2;
+    width: 390px;/*потом измени*/
+    height: 25px;
+    color: #95959c;
+    padding-left: 8px;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+.birth input{
+    width: 70px;
+    height: 25px
+}
+.birth h6 {
+    font-size: 14px;
+    color: #626263;
+    margin-bottom: 13px;
+    margin-top: 1px;
+}
+.formaCor input{
+    width: 180px;
+    height: 25px;
+}
+
+.lastname {
+    margin-left: 15px;
+}
+
+.forma input:active,
+:focus {
+    outline: none;
+}
+.radio {
+    color: #626263;
+    margin-bottom: 10px;
+}
+
+.Forgot {
+    margin-bottom: 15px;
+}
+.Forgot a{
+    text-decoration: none;
+    color: #27AAE1;
+    font-size: 14px;
+    
+}
+
+.Forgot a:hover {
+    text-decoration: underline;
+}
+
+.LoginNow button {
+    color: white;
+    padding: 10px;
+    border-radius: 50px;
+    width: 125px;
+    height: 40px;
+    background-color: #27AAE1;
+    border: none;
+    font-size: 14px;
+    font-weight: 700;
+    transition-duration: 1s;
+}
+
+.LoginNow button:hover{   
+    background-color: #3a86c9;
+}
+
+.LoginNow :focus {
+    border: 2px solid black;
+    background-color: #3a86c9;
+}
+.LinkLogReg {
+    transform: translateY(200px) translateX(-63%) rotate(270deg);
+    width: 250px;
+    padding: 20px 20px 10px 20px;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    background: rgba(255, 255, 255, .1);
+}
+.LinkLogReg a{
+    background: transparent;
+    color: #939598;
+    padding: 5px 35px;
+    min-width: 120px;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+}
+.line{ border-right: 1px solid black;}
+.LinkLogReg a:hover {text-decoration: none;} 
+
+.conteinerWithfigyr{
+    width: min-content;
+    height: max-content;
+    position: relative;
+    top:20px;
+    left: 470px;
+}
+.caseVertically {
+    background: rgb(255 255 255 / 11%);
+    width: 20px;
+    height: 310px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.caseHorizontally {
+    background: rgb(255 255 255 / 21%);
+    width: 33px;
+    height: 265px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    position: relative;
+    bottom: 290px;
+}

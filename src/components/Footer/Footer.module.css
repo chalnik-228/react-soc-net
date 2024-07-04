@@ -1,0 +1,11 @@
+.footerContent {
+    background-color: white;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    width: 192vh;
+    padding-top: 50px;
+    border-top: 10px solid black;
+    
+}
+/* linear-gradient(to right, #ffffff 0%, #53cbf1 50%, #ffffff 100%) linear-gradient(blue, pink)*/

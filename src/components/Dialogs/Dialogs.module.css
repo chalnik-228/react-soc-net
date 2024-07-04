@@ -1,0 +1,32 @@
+.dialogs {
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+    z-index: 1;
+}
+
+.dialogsItems {
+    padding: 10px;
+    width: max-content;
+    height: 330px;
+    overflow: hidden;
+    overflow-y: scroll;
+    scrollbar-width:thin;
+    scrollbar-color: #6d6e71 #d9d9d9;
+    
+}
+
+
+.messages {
+    padding: 10px;
+    width: max-content;
+    height: 330px;
+    overflow: hidden;
+    overflow-y: scroll;
+    scrollbar-width:thin;
+    scrollbar-color: #6d6e71 #d9d9d9
+}
+
+.contentInp {
+    position: relative;
+    left: 405px;
+}

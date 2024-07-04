@@ -1,0 +1,51 @@
+.profile_photo{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 0;
+    float: left;
+}
+
+.content {
+    margin-left: 65px;
+    position: relative;
+}
+
+.link {
+    font-weight: 600;
+}
+
+.user_info a {
+    color: #27aae1;
+    text-decoration: none;
+}
+
+.user_info a:hover {
+    color: #1780ad;
+}
+.follow {
+    color: #8dc63f;
+    font-size: 12px;
+    margin-left: 20px;
+}
+
+.text_muted {
+    color: #939598;
+    margin: 0 20px;
+    padding: 4px;
+}
+
+.post_text{
+    line-height: 24px;
+    margin: 24px;
+}
+
+.line{
+    background: none;
+    height: 1px;
+    border-top: 1px solid #e6e6e6;
+    width: 500px;
+    margin: 15px 0px 15px 0px;
+    margin-bottom: 10px;
+}

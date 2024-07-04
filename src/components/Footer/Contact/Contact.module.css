@@ -1,0 +1,24 @@
+.contactContent h5 {
+  display: inline;
+  color: #27aae1;
+  font-size: 14px;
+  font-weight: 400;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+
+.contactConteiner { 
+  font-size: 18px;
+  text-decoration: underline 2px rgb(0, 0, 0, 15%);
+  font-size: 15px;
+  
+}
+.contactConteiner div{
+  padding-top: 25px;
+}
+.contactConteiner img {
+  width:  15px;
+  height: 15px;
+  margin-right: 25px;
+}

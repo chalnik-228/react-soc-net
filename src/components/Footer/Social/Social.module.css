@@ -1,0 +1,64 @@
+.SocialContent {
+  grid-area: f;
+  
+}
+
+.SocialConteiner {
+  display: flex;
+  margin-top: 15px;
+}
+
+.footerIMG {
+  display: inline;
+  width: 180px;
+  height: 32px;
+  position: relative;
+  left: 10px;
+  top: 10px;
+}
+
+.socialIcon img{
+  transition: 0.6s linear;
+  background-color:#6d6e71;
+  border-radius: 50%;
+  width: 14px;
+  height: 14px;
+}
+.socialIcon {
+  margin: 15px 5px 0 10px;
+}
+.socialIcon button{
+  border-radius: 5px;
+  /* border: 1px solid black; */
+  border: none;
+  transition: 0.6s linear;
+  width: 23px;
+  height: 20px;
+  background-color: white;
+  box-shadow: 0 0 2px #9a9a9a;
+}
+
+.socialIcon button:hover{
+  color: #27aae1;
+}
+
+.socialIcon span{
+  align-items:start;
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.socialIconin span{
+  transition: 0.6s linear;
+  color: white;
+  font-size: 10px;
+  background-color: #6d6e71;
+}
+
+.socialIconin span:hover{
+  background-color: #27aae1;
+}
+
+.socialIconin img:hover{
+  background-color: #27aae1;
+}

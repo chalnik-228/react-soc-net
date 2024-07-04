@@ -1,0 +1,52 @@
+.header {
+  display: flex;
+  background-color: transparent;
+  border: none;
+  height: 100px;
+}
+
+.headerfix {
+  position: fixed;
+}
+
+.pozitHeaderfl {
+  display: flex;
+  padding: 28px 20px 0px 112px;
+}
+
+.headerIMG {
+  display: inline;
+  width: 340px;
+  height: 32px;
+}
+
+.textarea {
+  display: inline;
+}
+
+
+.textarea img{
+  width: 13px;
+  height: 13px;
+  position: relative;
+  top: 2px;
+  left: 24px;
+}
+
+
+.textarea input{
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 13px;
+  border: none;
+  width: 210px;
+  height: 25px;
+  color: white;
+  padding-left: 30px;
+  font-size: 13px;
+}
+
+.headerNavPos {
+  position: relative;
+  top: 29px;
+  left: 0px;
+}

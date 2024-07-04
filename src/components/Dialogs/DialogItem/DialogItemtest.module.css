@@ -1,0 +1,65 @@
+.dialogesTestItem {
+    background-color: rgb(255, 255, 255);  
+    display: flex;
+    padding-bottom: 18px;
+    border-bottom: 1px solid #e7ebf5;
+}
+
+.dialogesTestItem:hover {
+    border-bottom: 1px solid rgb(6, 179, 87);
+}
+
+.dialogesTestText,
+.dialogesTestElem {
+    line-height: 23px;
+}
+
+.dialogesTestItem img{
+    height: 50px;
+    width: 50px;
+    border-radius: 35px;
+}
+.dialogesTestItem div,
+span{
+    width: max-content;
+}
+.dialogesTestText{
+    color: rgba(0, 0, 0, 0.692);
+}
+
+.test1 {
+    color: #27aae1;
+    font-size: 14px;
+}
+
+.dialogesTestElem {
+    margin-left: -21px;
+    display: flex;
+    flex-direction: column;
+}
+
+.dialogesTestElem div{
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.692);
+}
+/*Если добавлю галочку*/
+/* .dialogesTestElem img {
+    align-self: flex-end;
+    width: 15px;
+    height: 15px;
+} */
+
+.dialogesTestElem .test2{
+    text-align: center;   
+    background-color: red;
+    width: 25px;
+    border-radius: 4px;
+    align-self: flex-end;
+    
+}
+
+.test2 span{
+    font-size: 16px;
+    color: white;
+}
+

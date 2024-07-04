@@ -1,0 +1,39 @@
+.infoposit {
+  display: flex;
+  flex-wrap: wrap;
+  /* position: relative;
+  top: 10px;
+  left: 100px;  */
+}
+
+h5 {
+  display: inline;
+  /* grid-area: h; */
+  color: #27aae1;
+  font-size: 14px;
+  font-weight: 400;
+  padding-left: 24px;
+  margin-bottom: 0;
+}
+
+.infoList {
+  /* grid-area: l; */
+  list-style-image: url(../../../img/Ellipse2.png);
+  margin: 0;
+}
+
+.infoList li {
+  font-size: 20px;
+}
+
+.infoList button {
+  background-color: transparent;
+  border: none;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.infoList button:hover {
+  color: #27aae1;
+  text-decoration: underline;
+}

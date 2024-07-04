@@ -1,0 +1,65 @@
+.Friend {
+  background-color: #ffffff;
+  display: inline-block;
+  border-bottom: 1px solid #e9f3f3;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+.FriendImageCont img {
+  width: 355px;
+  height: 138px;
+  border-radius: 4px;
+}
+
+.avatarka img {
+  height: 58px;
+  width: 58px;
+  border-radius: 35px;
+  position: relative;
+  top: -45px;
+  left: 22px;
+  border: 5px solid white;
+}
+
+.FriendInfo {
+  font-family: 'Lato', sans-serif;
+  /* line-height: 26px; */
+  color: #6d6e71;
+  font-size: 13px;
+  line-height: 18px;
+  position: relative;
+  top: -15px;
+  
+}
+
+.PositInfo {
+  display: flex;
+  flex-direction: column;
+  margin-left: 26px;
+}
+
+.FriendInfo a {
+  text-decoration: none;
+}
+
+.MyFriend {
+  color: #8dc63f;
+  align-self: flex-end;
+  margin-right: 20px;
+}
+
+.MyFriend:hover {
+  color: #6baa12;
+  text-decoration: underline;
+}
+
+.FriendName {
+  color: #27aae1;
+  font-weight: 600;
+}
+
+.FriendName:hover {
+  color: #27aae1;
+  text-decoration: underline;
+}

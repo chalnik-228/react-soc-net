@@ -1,0 +1,22 @@
+.Text{
+    color: white;
+}
+
+.Text h1{
+    font-family: 'Agency FB', sans-serif;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.Text p, div{
+    font-size: 14px;
+}
+
+.Text div {
+    margin: 40px 0 -35px;
+}
+
+.Btn button{
+    margin-top: 20px;
+    padding: 8px 20px;
+}

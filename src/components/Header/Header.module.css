@@ -1,0 +1,54 @@
+.header {
+  /* grid-area: h; */
+  display: flex;
+  background-color: #0000009c;
+  border: none;
+  height: 55px;
+  width: 100%;
+}
+
+.headerfix {
+  position: fixed;
+  z-index: 1;
+}
+
+.pozitHeaderfl {
+  display: flex;
+  padding: 15px 20px 0px 115px;
+}
+
+.headerIMG {
+  display: inline;
+  width: 340px;
+  height: 32px;
+}
+
+.textarea {
+  display: inline;
+}
+
+
+.textarea img{
+  width: 13px;
+  height: 13px;
+  position: relative;
+  top: 2px;
+  left: 24px;
+}
+
+
+.textarea input{
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 13px;
+  border: none;
+  width: 210px;
+  height: 25px;
+  color: white;
+  padding-left: 30px;
+  font-size: 13px;
+}
+
+.headerNavPos {
+  position: relative;
+  top: 16px;
+}

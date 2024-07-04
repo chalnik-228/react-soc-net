@@ -1,0 +1,52 @@
+.dialogesTest {
+    display: flex;
+    background-color: white;
+    height: auto;
+    width: fit-content;
+}
+
+.triangle {
+    display: flex;
+}
+
+.MessImg img {
+    height: 55px;
+    width: 55px;
+    border-radius: 35px;
+}
+
+.object {
+    margin-top: 6px;
+    border: 15px solid transparent; border-right: 15px solid rgba(141, 198, 63, .1);
+    align-self: flex-start;
+}
+
+.dialogsMessages {
+    border-radius: 10px;
+    background: rgba(141, 198, 63, .1);
+}
+/* background: rgba(142, 198, 63, 0.822) */
+
+.MessageInfo {
+    border-bottom: 1px dotted #caef8e;
+    margin-bottom: 10px;
+    width: 96%;
+    display: flex;
+    flex-direction: column;
+}
+.MessageName {
+    position: relative;
+    top: 10px;
+    margin-left: 10px;
+    
+}
+.textMited {
+    align-self: flex-end;
+    color: #939598;
+    font-size: 85%;
+    margin-bottom: 5px;
+}
+
+.MessageText {
+    padding: 0 10px 20px 10px;
+}

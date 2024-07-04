@@ -1,0 +1,53 @@
+.textBlock {
+    border: 1px solid #dadada;
+}
+
+.textBlock:focus {
+    transition: 0.3s linear;
+    outline: none;
+    border-color: #9ecaed;
+    box-shadow: 0 0 10px #9ecaed;
+}
+
+.sendMessage {
+    background: #f8f8f8;
+    padding: 20px;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+.input {
+    display: flex;
+}
+
+.sendMessage button {
+    background: #000;
+    color: #fff;
+}
+
+
+
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    touch-action: manipulation;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.sendMessage button:focus {
+    border: 1px solid black;
+}
+
+.btDdefailt:active {
+    color: black;
+    background-color: #ccc;
+    border: 1px solid white;
+    
+}

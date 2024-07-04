@@ -1,0 +1,40 @@
+.ProfList {
+  display:inline-block ;
+  background: linear-gradient( rgba(39, 170, 225, .8), rgba(28, 117, 188, .8)), url(../../../img/imgForestFon.png) no-repeat;
+  height: 100px;
+  width: 230px;
+  border-radius: 4px;
+  margin-bottom: 40px;
+}
+
+.profileImg img {
+  height: 58px;
+  width: 58px;
+  border-radius: 35px;
+  position: relative;
+  top: -15px;
+  left: 20px; 
+  border: 5px solid white;
+}
+.ProfInfo {
+  line-height: 30px;
+  position: relative;
+  top: -55px;
+  left: 110px;
+
+}
+
+.ProfInfo a {
+  color: white;
+}
+
+.ProfInfo span:hover {
+  text-decoration: underline;
+}
+.ProfInfoFol a{
+  font-size: 12px;
+}
+
+.ProfInfoFol img {
+  width: 13px;
+}

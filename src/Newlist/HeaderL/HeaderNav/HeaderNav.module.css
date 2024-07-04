@@ -1,0 +1,34 @@
+.navbar {
+    overflow: hidden;
+}
+
+.dropdown {
+    float: left;
+    margin-left: 18px;
+}
+
+.dropdown .dropbtn {
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: inherit;
+    font-family: inherit;
+}
+
+.navbar a:hover,
+.dropdown:hover .dropbtn,
+.dropbtn:focus {
+    color: #27AAE1;
+}
+
+.dropdown img {
+    width: 9px;
+    height: 7px;
+    position: relative;
+    top: 0px;
+    left: 5px;
+
+}

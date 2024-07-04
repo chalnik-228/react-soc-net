@@ -1,0 +1,43 @@
+.app-wrapper {
+  display: grid;
+
+  grid-template-areas:
+    "h h h"
+    "n c a"
+    "f f f";
+
+  grid-template-rows: auto auto 1fr;
+  grid-template-columns: 200px 754px 205px;
+  column-gap: 52px;
+}
+
+header {
+  grid-area: h;
+  background-color: #231F20;
+  border: none;
+  height: 55px;
+  width: 100%;
+}
+.appVrapperNav {
+  grid-area: n;;
+  height: fit-content;
+}
+.appVrapperADD {
+  grid-area: a;
+  height: fit-content;
+}
+.appVrapperContent {
+  grid-area: c;
+  background-color: white;
+  height: fit-content;
+
+}
+
+.appVrapperFoot {
+  grid-area: f;
+  z-index: 1;
+  height: fit-content;
+  /* display: none; */
+  /* position: relative;
+  top: auto; */
+}

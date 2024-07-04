@@ -1,0 +1,22 @@
+.col-md-7{
+    min-width: 600px;
+    width: 87%;
+    position: relative;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.Feed_content {
+    background: #f8f8f8;
+    
+    width: 100%;
+    border: 1px solid #f1f2f2;
+    margin-bottom: 20px;
+    overflow: hidden;
+    position: relative;
+}
+
+
+.posts {
+    padding: 20px;
+}

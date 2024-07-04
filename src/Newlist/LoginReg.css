@@ -1,0 +1,17 @@
+.app-wrapper-list {
+    background: linear-gradient( rgb(0 0 0 / 80%), rgb(0 0 0 / 80%)),url(https://themified.com/friend-finder/images/bg/bg-3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 150vh;
+    position: relative;
+}
+
+.wrapper-body {
+    padding-top: 100px;
+}
+
+.body-reg {
+    position: absolute;
+    top: 115px;
+    right: 115px;
+}

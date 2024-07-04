@@ -1,0 +1,32 @@
+.btnChat button{
+  background: #8dc63f;
+  border: none;
+  width: 185px;
+  height: 30px;
+  border-radius: 15px;
+  margin: 0 auto 20px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.iconFriendOnl{
+  display: flex;
+  gap: 8px;
+}
+
+.iconFriendOnl img {
+  height: 58px;
+  width: 58px;
+  border-radius: 50%;
+}
+.onlineBot {  
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background: linear-gradient(to bottom, rgb(173 253 64), rgba(0, 148, 68, 1));
+  border: 2px solid #fff;
+  position: relative;
+  bottom: 12px;
+  left: 20px;
+}
